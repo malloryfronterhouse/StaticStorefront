@@ -1,0 +1,34 @@
+body {
+    background-color: tan;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    background-color: lightgray;
+    height: 70px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#home {
+    text-decoration: none;
+    color: brown;
+}
+
+#about {
+    text-decoration: none;
+    color: brown;
+}
+
+#shopping {
+    text-decoration: none;
+    color: brown;
+}
+
+#searchBar {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: tan;
+    height: 20px;
+    width: 60px;
+}
