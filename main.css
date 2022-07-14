@@ -132,11 +132,17 @@ nav {
 }
 
 .article {
-    text-align: justify;
+    text-align: center;
     position: relative;
-    top: -400px;
     padding: 80px;
-    border: 2px solid #b16e4d;
-    height: 300px;
-    width: 200px;
+    top: -400px;
+}
+
+#title {
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.content {
+    font-size: 1.25rem;
 }
