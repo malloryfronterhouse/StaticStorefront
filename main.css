@@ -1,6 +1,7 @@
 body {
     background-color: tan;
     font-family: 'Courier New', Courier, monospace;
+    color: brown;
 }
 
 nav {
@@ -9,26 +10,47 @@ nav {
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
+    box-shadow: 2px 2px 2px black;
 }
+
 
 #home {
     text-decoration: none;
     color: brown;
+    font-size: 1.5rem;
+    margin-left: 50px;
 }
 
 #about {
     text-decoration: none;
     color: brown;
+    font-size: 1.5rem;
+    margin-left: 150px;
 }
 
 #shopping {
     text-decoration: none;
     color: brown;
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 150px;
+}
+
+#shoppingImage {
+    height: 30px;
+    width: 30px;
+    border-radius: 150px;
+    box-shadow: 2px 2px 2px black;
+    left: 5px;
 }
 
 #searchBar {
     font-family: 'Courier New', Courier, monospace;
     background-color: tan;
     height: 20px;
-    width: 60px;
+    width: 100px;
+    margin-right: 100px;
+    float: right;
+    color: brown;
+    margin-top: 15px;
 }
