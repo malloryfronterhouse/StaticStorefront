@@ -105,6 +105,7 @@ nav {
     font-weight: bold;
     text-shadow: 1px 1px 1px black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 90px 90px;
 }
 .section {
     border: 2px solid #b16e4d;
@@ -116,8 +117,12 @@ nav {
 
 .images {
     padding: 50px;
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 350px;
+}
+
+.images:hover {
+    cursor: progress;
 }
 
 .hygeine {
@@ -152,6 +157,7 @@ nav {
     position: relative;
     padding: 80px;
     top: -400px;
+    
 }
 
 #title {
