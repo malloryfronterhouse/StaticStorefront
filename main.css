@@ -48,7 +48,9 @@ nav {
     color: brown;
     font-size: 1.5rem;
     float: right;
-    margin-right: 250px;
+    margin: 10px;
+    position: relative;
+    left: -300px;
 }
 
 #shoppingImage {
@@ -56,7 +58,10 @@ nav {
     width: 30px;
     border-radius: 150px;
     box-shadow: 2px 2px 2px black;
-    left: 5px;
+    float: right;
+    position: relative;
+    right: -100px;
+    top: 8px;
 }
 
 #searchBar {
@@ -68,8 +73,13 @@ nav {
     float: right;
     color: brown;
     margin-top: 15px;
+    position: relative;
+    left: -250px;
 }
 
+::placeholder {
+    color: brown;
+}
 #sustainablity {
     font-size: 3rem;
     font-weight: bolder;
@@ -90,6 +100,12 @@ nav {
     color: brown;
 }
 
+#blurb {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .section {
     border: 2px solid #b16e4d;
     padding: 30px;
@@ -146,3 +162,38 @@ nav {
 .content {
     font-size: 1.25rem;
 }
+
+footer {
+    background-color: #b16e4d;
+    height: 80px;
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+}
+
+.footerLinks {
+    text-decoration: none;
+    color: brown;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.footerLinks:hover {
+    color: black;
+}
+
+.socials {
+    height: 30px;
+    width: 30px;
+    float: right;
+    position: relative;
+    margin: 0 1rem;
+}
+
+.socials:hover {
+    cursor: progress;
+}
+
