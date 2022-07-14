@@ -4,7 +4,7 @@ body {
     color: brown;
     background-image: url(./assets/backgroundImage4.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     
 }
 
@@ -17,6 +17,17 @@ nav {
     box-shadow: 2px 2px 2px black;
 }
 
+#home:hover {
+    color: black;
+}
+
+#about:hover {
+    color: black;
+}
+
+#shopping:hover {
+    color: black;
+}
 
 #home {
     text-decoration: none;
@@ -95,11 +106,37 @@ nav {
 
 .hygeine {
     margin: 100px;
+    position: relative;
+    top: 198px;
 }
 
 .household {
     float: right;
     margin: 100px;
     position: relative;
-    top: -760px;
+    top: -560px;
+}
+
+.clothing {
+    margin: 100px;
+    position: relative;
+    top: 300px;
+}
+
+.period {
+    float: right;
+    margin: 100px;
+    position: relative;
+    top: -465px;
+    left: 758px;
+}
+
+.article {
+    text-align: justify;
+    position: relative;
+    top: -400px;
+    padding: 80px;
+    border: 2px solid #b16e4d;
+    height: 300px;
+    width: 200px;
 }
