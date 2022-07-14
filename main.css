@@ -2,10 +2,14 @@ body {
     background-color: tan;
     font-family: 'Courier New', Courier, monospace;
     color: brown;
+    background-image: url(./assets/backgroundImage4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 }
 
 nav {
-    background-color: lightgray;
+    background-color: #d2a38c;
     height: 70px;
     margin-top: -10px;
     margin-left: -10px;
@@ -33,7 +37,7 @@ nav {
     color: brown;
     font-size: 1.5rem;
     float: right;
-    margin-right: 150px;
+    margin-right: 250px;
 }
 
 #shoppingImage {
@@ -46,11 +50,56 @@ nav {
 
 #searchBar {
     font-family: 'Courier New', Courier, monospace;
-    background-color: tan;
+    background-color: beige;
     height: 20px;
     width: 100px;
-    margin-right: 100px;
+    margin-right: -300px;
     float: right;
     color: brown;
     margin-top: 15px;
+}
+
+#sustainablity {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #b16e4d;
+    text-shadow: 2px 2px 2px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    float: left;
+    margin-left: 70px;
+}
+
+#hub {
+    font-size: 5rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+    color: brown;
+}
+
+.section {
+    border: 2px solid #b16e4d;
+    padding: 30px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.images {
+    padding: 50px;
+    height: 200px;
+    width: 300px;
+}
+
+.hygeine {
+    margin: 100px;
+}
+
+.household {
+    float: right;
+    margin: 100px;
+    position: relative;
+    top: -760px;
 }
